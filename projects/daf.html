@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAF - Deterministic Agentic Framework</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="daf-styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo"><a href="../index.html#home">tonyos-lab</a></div>
+            <ul class="nav-links">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#projects">Projects</a></li>
+                <li><a href="#docs">Documentation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Project Hero -->
+    <section class="project-hero">
+        <div class="container">
+            <div class="project-hero-content">
+                <h1>DAF — Deterministic Agentic Framework</h1>
+                <p class="tagline">The model proposes. The system governs.</p>
+                <p class="description">Policy-Based Agentic Systems (PBAS) — A framework for building agentic AI applications where the LLM generates plans but a deterministic policy engine governs execution.</p>
+                <div class="hero-buttons">
+                    <a href="https://github.com/tonyos-lab/daf" class="cta-button primary">View on GitHub</a>
+                    <a href="https://github.com/tonyos-lab/daf#run-in-2-minutes" class="cta-button secondary">Quick Start</a>
+                </div>
+                <div class="badges">
+                    <span class="badge">Python</span>
+                    <span class="badge">Open Source</span>
+                    <span class="badge">Apache 2.0</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Section -->
+    <section id="docs" class="documentation">
+        <div class="container">
+            <h2>Documentation</h2>
+            <p class="section-intro">Comprehensive guides and references for the DAF framework</p>
+            
+            <div class="docs-grid">
+                <!-- API Reference -->
+                <div class="doc-card">
+                    <div class="doc-icon">📚</div>
+                    <h3>API Reference</h3>
+                    <p>Complete programmatic API documentation for all DAF components, classes, and methods.</p>
+                    <a href="https://github.com/tonyos-lab/daf/blob/main/docs/api-reference.md" class="doc-link">Read Documentation →</a>
+                </div>
+
+                <!-- Design Philosophy -->
+                <div class="doc-card">
+                    <div class="doc-icon">🏗️</div>
+                    <h3>Design Philosophy</h3>
+                    <p>Eight core design principles behind DAF and how they influence the framework architecture.</p>
+                    <a href="https://github.com/tonyos-lab/daf/blob/main/docs/design-philosophy.md" class="doc-link">Read Documentation →</a>
+                </div>
+
+                <!-- Developer Guide -->
+                <div class="doc-card">
+                    <div class="doc-icon">👨‍💻</div>
+                    <h3>Developer Guide</h3>
+                    <p>Step-by-step guide to extending DAF, implementing custom tools, agents, and policies.</p>
+                    <a href="https://github.com/tonyos-lab/daf/blob/main/docs/developer-guide.md" class="doc-link">Read Documentation →</a>
+                </div>
+
+                <!-- Quick Start -->
+                <div class="doc-card">
+                    <div class="doc-icon">⚡</div>
+                    <h3>Quick Start</h3>
+                    <p>Get up and running with DAF in 2 minutes with mock examples and boilerplates.</p>
+                    <a href="https://github.com/tonyos-lab/daf#run-in-2-minutes" class="doc-link">View Quick Start →</a>
+                </div>
+
+                <!-- Repository Structure -->
+                <div class="doc-card">
+                    <div class="doc-icon">📁</div>
+                    <h3>Repository Structure</h3>
+                    <p>Understand the organization of the DAF repository and locate key components.</p>
+                    <a href="https://github.com/tonyos-lab/daf#repository-structure" class="doc-link">View Structure →</a>
+                </div>
+
+                <!-- Boilerplates -->
+                <div class="doc-card">
+                    <div class="doc-icon">🚀</div>
+                    <h3>Seven Boilerplates</h3>
+                    <p>Ready-to-run templates for common use cases: contract review, report generation, compliance, and more.</p>
+                    <a href="https://github.com/tonyos-lab/daf/tree/main/boilerplates" class="doc-link">Explore Boilerplates →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Core Features</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <h4>🎯 Deterministic Governance</h4>
+                    <p>No LLM calls in policy evaluation. Either the plan conforms to your PolicyMatrix or it doesn't.</p>
+                </div>
+                <div class="feature">
+                    <h4>🔐 Separation of Concerns</h4>
+                    <p>LLM handles cognition (planning), policy engine handles governance, execution runs in scoped context.</p>
+                </div>
+                <div class="feature">
+                    <h4>📋 Policy-Based Control</h4>
+                    <p>Write governance rules in YAML. Change policies without modifying code.</p>
+                </div>
+                <div class="feature">
+                    <h4>🔄 Self-Correcting Loops</h4>
+                    <p>When plans violate policies, the system provides context for re-planning without manual intervention.</p>
+                </div>
+                <div class="feature">
+                    <h4>🚀 Mock-First Testing</h4>
+                    <p>Develop and test with mock LLM clients. No API key required. Seamless switch to production.</p>
+                </div>
+                <div class="feature">
+                    <h4>📦 Ready-to-Run Boilerplates</h4>
+                    <p>Seven production-grade templates: contract review, report generation, support triage, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Repository Stats Section -->
+    <section class="repo-stats">
+        <div class="container">
+            <h2>Repository Overview</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">561+</div>
+                    <p>Tests (Unit, Adversarial, Integration)</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">7</div>
+                    <p>Production Boilerplates</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">99.9%</div>
+                    <p>Python Codebase</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">Apache 2.0</div>
+                    <p>Open Source License</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Repository Link Section -->
+    <section class="repo-cta">
+        <div class="container">
+            <h2>Ready to Explore DAF?</h2>
+            <p>Clone the repository and run your first governed agentic loop in minutes.</p>
+            <div class="cta-links">
+                <a href="https://github.com/tonyos-lab/daf" class="cta-button primary">View Full Repository</a>
+                <a href="https://github.com/tonyos-lab/daf#run-in-2-minutes" class="cta-button secondary">Run Quick Start</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 tonyos-lab. All rights reserved.</p>
+            <p><a href="https://github.com/tonyos-lab/daf" style="color: inherit; text-decoration: none;">github.com/tonyos-lab/daf</a></p>
+        </div>
+    </footer>
+</body>
+</html>
